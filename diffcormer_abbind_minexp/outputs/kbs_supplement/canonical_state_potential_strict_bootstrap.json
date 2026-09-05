@@ -1,0 +1,288 @@
+{
+  "sequence_cluster": {
+    "canonical_minus_backbone": [
+      {
+        "metric": "PCC",
+        "reference": 0.34116132543430094,
+        "candidate": 0.3536545661883387,
+        "difference": 0.012493240754037738,
+        "ci95_low": -0.17990371947001962,
+        "ci95_high": 0.18332239991674767,
+        "probability_improvement": 0.6203
+      },
+      {
+        "metric": "Spearman",
+        "reference": 0.4310632059391097,
+        "candidate": 0.44137549034038426,
+        "difference": 0.010312284401274574,
+        "ci95_low": -0.1135877887968401,
+        "ci95_high": 0.10778010839613228,
+        "probability_improvement": 0.615
+      },
+      {
+        "metric": "RMSE",
+        "reference": 2.2896066326396816,
+        "candidate": 2.355473062994947,
+        "difference": 0.0658664303552654,
+        "ci95_low": -0.17237311220228474,
+        "ci95_high": 0.3122048939413565,
+        "probability_improvement": 0.3579
+      },
+      {
+        "metric": "MAE",
+        "reference": 1.520040593305611,
+        "candidate": 1.518595855885388,
+        "difference": -0.0014447374202228858,
+        "ci95_low": -0.09879302677676045,
+        "ci95_high": 0.0940785768290251,
+        "probability_improvement": 0.5488
+      },
+      {
+        "metric": "AUROC",
+        "reference": 0.6838690904111465,
+        "candidate": 0.7432046146999417,
+        "difference": 0.05933552428879518,
+        "ci95_low": 0.01937256493506497,
+        "ci95_high": 0.10494808135292188,
+        "probability_improvement": 0.9961
+      }
+    ],
+    "canonical_minus_soft": [
+      {
+        "metric": "PCC",
+        "reference": 0.3804157246526105,
+        "candidate": 0.3536545661883387,
+        "difference": -0.026761158464271795,
+        "ci95_low": -0.20444959901229698,
+        "ci95_high": 0.1159851977604888,
+        "probability_improvement": 0.4004
+      },
+      {
+        "metric": "Spearman",
+        "reference": 0.4511326148881979,
+        "candidate": 0.44137549034038426,
+        "difference": -0.009757124547813634,
+        "ci95_low": -0.13504238080062195,
+        "ci95_high": 0.07190019317922944,
+        "probability_improvement": 0.4591
+      },
+      {
+        "metric": "RMSE",
+        "reference": 2.2517283036439775,
+        "candidate": 2.355473062994947,
+        "difference": 0.1037447593509695,
+        "ci95_low": -0.11193556966512624,
+        "ci95_high": 0.3410633775075113,
+        "probability_improvement": 0.25
+      },
+      {
+        "metric": "MAE",
+        "reference": 1.5024707360796141,
+        "candidate": 1.518595855885388,
+        "difference": 0.016125119805773913,
+        "ci95_low": -0.06627108309051424,
+        "ci95_high": 0.11309640204902034,
+        "probability_improvement": 0.3907
+      },
+      {
+        "metric": "AUROC",
+        "reference": 0.689744445585567,
+        "candidate": 0.7432046146999417,
+        "difference": 0.05346016911437468,
+        "ci95_low": 0.012323217937159492,
+        "ci95_high": 0.09374719419691627,
+        "probability_improvement": 0.9921
+      }
+    ],
+    "canonical_minus_hard": [
+      {
+        "metric": "PCC",
+        "reference": 0.3915468065390039,
+        "candidate": 0.3536545661883387,
+        "difference": -0.03789224035066524,
+        "ci95_low": -0.15426716334977944,
+        "ci95_high": 0.055914454882443364,
+        "probability_improvement": 0.3131
+      },
+      {
+        "metric": "Spearman",
+        "reference": 0.47541743125559655,
+        "candidate": 0.44137549034038426,
+        "difference": -0.03404194091521229,
+        "ci95_low": -0.11487360543761725,
+        "ci95_high": 0.032238180162901225,
+        "probability_improvement": 0.1677
+      },
+      {
+        "metric": "RMSE",
+        "reference": 2.257355590210932,
+        "candidate": 2.355473062994947,
+        "difference": 0.09811747278401484,
+        "ci95_low": -0.05660633338643147,
+        "ci95_high": 0.2655379405305928,
+        "probability_improvement": 0.1475
+      },
+      {
+        "metric": "MAE",
+        "reference": 1.4866698766452628,
+        "candidate": 1.518595855885388,
+        "difference": 0.03192597924012519,
+        "ci95_low": -0.04283407884626844,
+        "ci95_high": 0.10209454422063273,
+        "probability_improvement": 0.1836
+      },
+      {
+        "metric": "AUROC",
+        "reference": 0.732566498921639,
+        "candidate": 0.7432046146999417,
+        "difference": 0.010638115778302648,
+        "ci95_low": -0.019650126343646743,
+        "ci95_high": 0.04199023370010608,
+        "probability_improvement": 0.7676
+      }
+    ]
+  },
+  "interface_structure": {
+    "canonical_minus_backbone": [
+      {
+        "metric": "PCC",
+        "reference": 0.4691750129544516,
+        "candidate": 0.48793285706128375,
+        "difference": 0.018757844106832178,
+        "ci95_low": -0.07117907394941204,
+        "ci95_high": 0.12939095502188597,
+        "probability_improvement": 0.7134
+      },
+      {
+        "metric": "Spearman",
+        "reference": 0.5465204617585702,
+        "candidate": 0.5153042774929338,
+        "difference": -0.031216184265636326,
+        "ci95_low": -0.10073026147846006,
+        "ci95_high": 0.053595276200532574,
+        "probability_improvement": 0.2208
+      },
+      {
+        "metric": "RMSE",
+        "reference": 2.163417136076803,
+        "candidate": 2.17387689297223,
+        "difference": 0.010459756895426775,
+        "ci95_low": -0.1835171917430465,
+        "ci95_high": 0.18004700944436086,
+        "probability_improvement": 0.5074
+      },
+      {
+        "metric": "MAE",
+        "reference": 1.451426250573604,
+        "candidate": 1.4577722684895578,
+        "difference": 0.006346017915953794,
+        "ci95_low": -0.0716695209607491,
+        "ci95_high": 0.07514083188517463,
+        "probability_improvement": 0.4522
+      },
+      {
+        "metric": "AUROC",
+        "reference": 0.7666803601383041,
+        "candidate": 0.7713746533839992,
+        "difference": 0.004694293245695147,
+        "ci95_low": -0.021530589845901393,
+        "ci95_high": 0.0550522171074052,
+        "probability_improvement": 0.6446
+      }
+    ],
+    "canonical_minus_soft": [
+      {
+        "metric": "PCC",
+        "reference": 0.48970543484083423,
+        "candidate": 0.48793285706128375,
+        "difference": -0.0017725777795504771,
+        "ci95_low": -0.05751726520372811,
+        "ci95_high": 0.053108237827658014,
+        "probability_improvement": 0.528
+      },
+      {
+        "metric": "Spearman",
+        "reference": 0.551706143940295,
+        "candidate": 0.5153042774929338,
+        "difference": -0.03640186644736121,
+        "ci95_low": -0.0788713540098557,
+        "ci95_high": 0.012702038395487418,
+        "probability_improvement": 0.0682
+      },
+      {
+        "metric": "RMSE",
+        "reference": 2.1356869428765197,
+        "candidate": 2.17387689297223,
+        "difference": 0.038189950095710135,
+        "ci95_low": -0.08240952671079818,
+        "ci95_high": 0.14476844248933662,
+        "probability_improvement": 0.2956
+      },
+      {
+        "metric": "MAE",
+        "reference": 1.421219808145107,
+        "candidate": 1.4577722684895578,
+        "difference": 0.0365524603444507,
+        "ci95_low": -0.014320003328345005,
+        "ci95_high": 0.08707662615799472,
+        "probability_improvement": 0.0693
+      },
+      {
+        "metric": "AUROC",
+        "reference": 0.776864879668618,
+        "candidate": 0.7713746533839992,
+        "difference": -0.005490226284618704,
+        "ci95_low": -0.024372656134151852,
+        "ci95_high": 0.022365327185537638,
+        "probability_improvement": 0.3239
+      }
+    ],
+    "canonical_minus_hard": [
+      {
+        "metric": "PCC",
+        "reference": 0.4628207715404163,
+        "candidate": 0.48793285706128375,
+        "difference": 0.025112085520867466,
+        "ci95_low": -0.010802023972632739,
+        "ci95_high": 0.065428581843751,
+        "probability_improvement": 0.9266
+      },
+      {
+        "metric": "Spearman",
+        "reference": 0.5088245982116504,
+        "candidate": 0.5153042774929338,
+        "difference": 0.006479679281283457,
+        "ci95_low": -0.024439742485599436,
+        "ci95_high": 0.03673850820629116,
+        "probability_improvement": 0.7066
+      },
+      {
+        "metric": "RMSE",
+        "reference": 2.194379809902075,
+        "candidate": 2.17387689297223,
+        "difference": -0.02050291692984496,
+        "ci95_low": -0.10834058033441854,
+        "ci95_high": 0.058089768260311404,
+        "probability_improvement": 0.7241
+      },
+      {
+        "metric": "MAE",
+        "reference": 1.4633256135982684,
+        "candidate": 1.4577722684895578,
+        "difference": -0.005553345108710639,
+        "ci95_low": -0.0607556567360564,
+        "ci95_high": 0.04511964100265646,
+        "probability_improvement": 0.5791
+      },
+      {
+        "metric": "AUROC",
+        "reference": 0.7662310431002021,
+        "candidate": 0.7713746533839992,
+        "difference": 0.005143610283797173,
+        "ci95_low": -0.011068612450425971,
+        "ci95_high": 0.02358251743333048,
+        "probability_improvement": 0.7559
+      }
+    ]
+  }
+}

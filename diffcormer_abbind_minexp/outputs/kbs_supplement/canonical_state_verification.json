@@ -1,0 +1,11 @@
+{
+  "rows": 1129,
+  "unique_state_phase_keys": 3298,
+  "repeated_state_phase_keys": 184,
+  "repeated_state_occurrences_compared": 1218,
+  "nonidentical_repeated_occurrences": 0,
+  "maximum_absolute_difference_after_canonicalization": 0.0,
+  "maximum_state_input_difference_after_canonicalization": 0.0,
+  "graph_structure_mismatches": 0,
+  "exact_canonical_consistency": true
+}

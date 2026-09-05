@@ -1,0 +1,1850 @@
+{
+  "rows": 1129,
+  "unique_state_phase_keys": 3298,
+  "duplicate_state_phase_keys": 184,
+  "nonidentical_duplicate_keys_before_canonicalization": 35,
+  "maximum_channel_range_before_canonicalization": 11.08251953125,
+  "selection_rule": "reuse the descriptor from the lowest source_row for each key",
+  "duplicate_states": [
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 13,
+      "amino_acid": "E",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 952,
+      "max_channel_range_before_canonicalization": 11.08251953125
+    },
+    {
+      "official_complex": "1TM1_E_I",
+      "chain_id": "I",
+      "pdb_pos": 48,
+      "amino_acid": "R",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 710,
+      "max_channel_range_before_canonicalization": 8.447074890136719
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 15,
+      "amino_acid": "R",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 1066,
+      "max_channel_range_before_canonicalization": 7.28924560546875
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 16,
+      "amino_acid": "R",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 624,
+      "max_channel_range_before_canonicalization": 7.0
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 11,
+      "amino_acid": "T",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 1085,
+      "max_channel_range_before_canonicalization": 6.882354736328125
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 26,
+      "amino_acid": "G",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 971,
+      "max_channel_range_before_canonicalization": 5.8491363525390625
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 17,
+      "amino_acid": "T",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 491,
+      "max_channel_range_before_canonicalization": 5.0860748291015625
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 19,
+      "amino_acid": "E",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 377,
+      "max_channel_range_before_canonicalization": 4.971057891845703
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 32,
+      "amino_acid": "G",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 396,
+      "max_channel_range_before_canonicalization": 4.5169830322265625
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 21,
+      "amino_acid": "R",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 472,
+      "max_channel_range_before_canonicalization": 4.510185241699219
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 20,
+      "amino_acid": "Y",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 510,
+      "max_channel_range_before_canonicalization": 4.5014190673828125
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 85,
+      "amino_acid": "R",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 269,
+      "max_channel_range_before_canonicalization": 4.492042541503906
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 15,
+      "amino_acid": "Y",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 662,
+      "max_channel_range_before_canonicalization": 4.314422607421875
+    },
+    {
+      "official_complex": "1KTZ_A_B",
+      "chain_id": "A",
+      "pdb_pos": 13,
+      "amino_acid": "R",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 332,
+      "max_channel_range_before_canonicalization": 4.190128326416016
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 15,
+      "amino_acid": "R",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 1066,
+      "max_channel_range_before_canonicalization": 3.996562957763672
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 18,
+      "amino_acid": "L",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 415,
+      "max_channel_range_before_canonicalization": 3.6191253662109375
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 20,
+      "amino_acid": "Y",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 510,
+      "max_channel_range_before_canonicalization": 3.2412872314453125
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 17,
+      "amino_acid": "T",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 491,
+      "max_channel_range_before_canonicalization": 3.2189178466796875
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 12,
+      "amino_acid": "L",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 1009,
+      "max_channel_range_before_canonicalization": 3.2019729614257812
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 13,
+      "amino_acid": "E",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 952,
+      "max_channel_range_before_canonicalization": 3.0519447326660156
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 14,
+      "amino_acid": "Y",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 1104,
+      "max_channel_range_before_canonicalization": 3.0519447326660156
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 21,
+      "amino_acid": "R",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 472,
+      "max_channel_range_before_canonicalization": 2.9730224609375
+    },
+    {
+      "official_complex": "1TM1_E_I",
+      "chain_id": "I",
+      "pdb_pos": 48,
+      "amino_acid": "R",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 710,
+      "max_channel_range_before_canonicalization": 2.707183837890625
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 14,
+      "amino_acid": "E",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 548,
+      "max_channel_range_before_canonicalization": 2.41522216796875
+    },
+    {
+      "official_complex": "1JTG_A_B",
+      "chain_id": "A",
+      "pdb_pos": 79,
+      "amino_acid": "E",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 290,
+      "max_channel_range_before_canonicalization": 2.2307281494140625
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 16,
+      "amino_acid": "R",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 624,
+      "max_channel_range_before_canonicalization": 2.1350326538085938
+    },
+    {
+      "official_complex": "1A22_A_B",
+      "chain_id": "B",
+      "pdb_pos": 11,
+      "amino_acid": "R",
+      "phase": "bound",
+      "occurrences": 3,
+      "canonical_source_row": 39,
+      "max_channel_range_before_canonicalization": 2.0
+    },
+    {
+      "official_complex": "1A22_A_B",
+      "chain_id": "B",
+      "pdb_pos": 11,
+      "amino_acid": "R",
+      "phase": "free",
+      "occurrences": 3,
+      "canonical_source_row": 39,
+      "max_channel_range_before_canonicalization": 2.0
+    },
+    {
+      "official_complex": "2WPT_A_B",
+      "chain_id": "A",
+      "pdb_pos": 31,
+      "amino_acid": "N",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 890,
+      "max_channel_range_before_canonicalization": 2.0
+    },
+    {
+      "official_complex": "1TM1_E_I",
+      "chain_id": "I",
+      "pdb_pos": 41,
+      "amino_acid": "E",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 702,
+      "max_channel_range_before_canonicalization": 1.7392578125
+    },
+    {
+      "official_complex": "1BRS_A_D",
+      "chain_id": "A",
+      "pdb_pos": 57,
+      "amino_acid": "R",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 130,
+      "max_channel_range_before_canonicalization": 1.3701534271240234
+    },
+    {
+      "official_complex": "1TM1_E_I",
+      "chain_id": "I",
+      "pdb_pos": 41,
+      "amino_acid": "E",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 702,
+      "max_channel_range_before_canonicalization": 1.3620891571044922
+    },
+    {
+      "official_complex": "1TM1_E_I",
+      "chain_id": "I",
+      "pdb_pos": 40,
+      "amino_acid": "M",
+      "phase": "bound",
+      "occurrences": 5,
+      "canonical_source_row": 704,
+      "max_channel_range_before_canonicalization": 1.0
+    },
+    {
+      "official_complex": "2FTL_E_I",
+      "chain_id": "I",
+      "pdb_pos": 15,
+      "amino_acid": "K",
+      "phase": "bound",
+      "occurrences": 16,
+      "canonical_source_row": 777,
+      "max_channel_range_before_canonicalization": 1.0
+    },
+    {
+      "official_complex": "1BRS_A_D",
+      "chain_id": "A",
+      "pdb_pos": 100,
+      "amino_acid": "H",
+      "phase": "bound",
+      "occurrences": 5,
+      "canonical_source_row": 123,
+      "max_channel_range_before_canonicalization": 0.000213623046875
+    },
+    {
+      "official_complex": "1A4Y_A_B",
+      "chain_id": "B",
+      "pdb_pos": 40,
+      "amino_acid": "K",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 68,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1A4Y_A_B",
+      "chain_id": "B",
+      "pdb_pos": 40,
+      "amino_acid": "K",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 68,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1A4Y_A_B",
+      "chain_id": "A",
+      "pdb_pos": 434,
+      "amino_acid": "Y",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 81,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1A4Y_A_B",
+      "chain_id": "A",
+      "pdb_pos": 434,
+      "amino_acid": "Y",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 81,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1A4Y_A_B",
+      "chain_id": "A",
+      "pdb_pos": 437,
+      "amino_acid": "Y",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 83,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1A4Y_A_B",
+      "chain_id": "A",
+      "pdb_pos": 437,
+      "amino_acid": "Y",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 83,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1ACB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 38,
+      "amino_acid": "L",
+      "phase": "bound",
+      "occurrences": 6,
+      "canonical_source_row": 85,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1ACB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 38,
+      "amino_acid": "L",
+      "phase": "free",
+      "occurrences": 6,
+      "canonical_source_row": 85,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1AK4_A_D",
+      "chain_id": "D",
+      "pdb_pos": 88,
+      "amino_acid": "A",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 91,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1AK4_A_D",
+      "chain_id": "D",
+      "pdb_pos": 88,
+      "amino_acid": "A",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 91,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1AK4_A_D",
+      "chain_id": "D",
+      "pdb_pos": 92,
+      "amino_acid": "A",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 93,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1AK4_A_D",
+      "chain_id": "D",
+      "pdb_pos": 92,
+      "amino_acid": "A",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 93,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1AK4_A_D",
+      "chain_id": "D",
+      "pdb_pos": 89,
+      "amino_acid": "G",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 95,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1AK4_A_D",
+      "chain_id": "D",
+      "pdb_pos": 89,
+      "amino_acid": "G",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 95,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1AK4_A_D",
+      "chain_id": "D",
+      "pdb_pos": 87,
+      "amino_acid": "H",
+      "phase": "bound",
+      "occurrences": 3,
+      "canonical_source_row": 97,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1AK4_A_D",
+      "chain_id": "D",
+      "pdb_pos": 87,
+      "amino_acid": "H",
+      "phase": "free",
+      "occurrences": 3,
+      "canonical_source_row": 97,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1AK4_A_D",
+      "chain_id": "D",
+      "pdb_pos": 91,
+      "amino_acid": "I",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 100,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1AK4_A_D",
+      "chain_id": "D",
+      "pdb_pos": 91,
+      "amino_acid": "I",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 100,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1BRS_A_D",
+      "chain_id": "A",
+      "pdb_pos": 71,
+      "amino_acid": "E",
+      "phase": "bound",
+      "occurrences": 7,
+      "canonical_source_row": 115,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1BRS_A_D",
+      "chain_id": "A",
+      "pdb_pos": 71,
+      "amino_acid": "E",
+      "phase": "free",
+      "occurrences": 7,
+      "canonical_source_row": 115,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1BRS_A_D",
+      "chain_id": "A",
+      "pdb_pos": 100,
+      "amino_acid": "H",
+      "phase": "free",
+      "occurrences": 5,
+      "canonical_source_row": 123,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1BRS_A_D",
+      "chain_id": "A",
+      "pdb_pos": 57,
+      "amino_acid": "R",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 130,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1BRS_A_D",
+      "chain_id": "D",
+      "pdb_pos": 29,
+      "amino_acid": "Y",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 138,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1BRS_A_D",
+      "chain_id": "D",
+      "pdb_pos": 29,
+      "amino_acid": "Y",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 138,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1CSE_E_I",
+      "chain_id": "I",
+      "pdb_pos": 38,
+      "amino_acid": "L",
+      "phase": "bound",
+      "occurrences": 6,
+      "canonical_source_row": 140,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1CSE_E_I",
+      "chain_id": "I",
+      "pdb_pos": 38,
+      "amino_acid": "L",
+      "phase": "free",
+      "occurrences": 6,
+      "canonical_source_row": 140,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1F47_A_B",
+      "chain_id": "A",
+      "pdb_pos": 7,
+      "amino_acid": "D",
+      "phase": "bound",
+      "occurrences": 3,
+      "canonical_source_row": 197,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1F47_A_B",
+      "chain_id": "A",
+      "pdb_pos": 7,
+      "amino_acid": "D",
+      "phase": "free",
+      "occurrences": 3,
+      "canonical_source_row": 197,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 82,
+      "amino_acid": "F",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 255,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 82,
+      "amino_acid": "F",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 255,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 5,
+      "amino_acid": "I",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 257,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 5,
+      "amino_acid": "I",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 257,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 12,
+      "amino_acid": "K",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 259,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 12,
+      "amino_acid": "K",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 259,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 78,
+      "amino_acid": "Q",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 262,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 78,
+      "amino_acid": "Q",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 262,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 8,
+      "amino_acid": "Q",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 264,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 8,
+      "amino_acid": "Q",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 264,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 81,
+      "amino_acid": "R",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 267,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 81,
+      "amino_acid": "R",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 267,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 85,
+      "amino_acid": "R",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 269,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 88,
+      "amino_acid": "R",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 271,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 88,
+      "amino_acid": "R",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 271,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 13,
+      "amino_acid": "T",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 273,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 13,
+      "amino_acid": "T",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 273,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 6,
+      "amino_acid": "T",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 275,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 6,
+      "amino_acid": "T",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 275,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 91,
+      "amino_acid": "W",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 277,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1IAR_A_B",
+      "chain_id": "A",
+      "pdb_pos": 91,
+      "amino_acid": "W",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 277,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1JTG_A_B",
+      "chain_id": "B",
+      "pdb_pos": 163,
+      "amino_acid": "D",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 286,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1JTG_A_B",
+      "chain_id": "B",
+      "pdb_pos": 163,
+      "amino_acid": "D",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 286,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1JTG_A_B",
+      "chain_id": "A",
+      "pdb_pos": 79,
+      "amino_acid": "E",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 290,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1KTZ_A_B",
+      "chain_id": "B",
+      "pdb_pos": 8,
+      "amino_acid": "D",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 322,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1KTZ_A_B",
+      "chain_id": "B",
+      "pdb_pos": 8,
+      "amino_acid": "D",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 322,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1KTZ_A_B",
+      "chain_id": "B",
+      "pdb_pos": 95,
+      "amino_acid": "E",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 326,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1KTZ_A_B",
+      "chain_id": "B",
+      "pdb_pos": 95,
+      "amino_acid": "E",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 326,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1KTZ_A_B",
+      "chain_id": "A",
+      "pdb_pos": 13,
+      "amino_acid": "R",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 332,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1KTZ_A_B",
+      "chain_id": "A",
+      "pdb_pos": 64,
+      "amino_acid": "R",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 334,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1KTZ_A_B",
+      "chain_id": "A",
+      "pdb_pos": 64,
+      "amino_acid": "R",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 334,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1KTZ_A_B",
+      "chain_id": "B",
+      "pdb_pos": 28,
+      "amino_acid": "S",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 337,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1KTZ_A_B",
+      "chain_id": "B",
+      "pdb_pos": 28,
+      "amino_acid": "S",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 337,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1LFD_A_B",
+      "chain_id": "A",
+      "pdb_pos": 38,
+      "amino_acid": "D",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 342,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1LFD_A_B",
+      "chain_id": "A",
+      "pdb_pos": 38,
+      "amino_acid": "D",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 342,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 15,
+      "amino_acid": "A",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 358,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 15,
+      "amino_acid": "A",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 358,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 19,
+      "amino_acid": "E",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 377,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 32,
+      "amino_acid": "G",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 396,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 18,
+      "amino_acid": "L",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 415,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 36,
+      "amino_acid": "N",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 434,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 36,
+      "amino_acid": "N",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 434,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 14,
+      "amino_acid": "P",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 453,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1PPF_E_I",
+      "chain_id": "I",
+      "pdb_pos": 14,
+      "amino_acid": "P",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 453,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 10,
+      "amino_acid": "A",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 529,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 10,
+      "amino_acid": "A",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 529,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 14,
+      "amino_acid": "E",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 548,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 8,
+      "amino_acid": "K",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 567,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 8,
+      "amino_acid": "K",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 567,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 13,
+      "amino_acid": "L",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 586,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 13,
+      "amino_acid": "L",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 586,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 9,
+      "amino_acid": "P",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 605,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 9,
+      "amino_acid": "P",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 605,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 12,
+      "amino_acid": "T",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 643,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 12,
+      "amino_acid": "T",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 643,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1R0R_E_I",
+      "chain_id": "I",
+      "pdb_pos": 15,
+      "amino_acid": "Y",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 662,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1TM1_E_I",
+      "chain_id": "I",
+      "pdb_pos": 40,
+      "amino_acid": "M",
+      "phase": "free",
+      "occurrences": 5,
+      "canonical_source_row": 704,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1TM1_E_I",
+      "chain_id": "I",
+      "pdb_pos": 39,
+      "amino_acid": "T",
+      "phase": "bound",
+      "occurrences": 3,
+      "canonical_source_row": 712,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1TM1_E_I",
+      "chain_id": "I",
+      "pdb_pos": 39,
+      "amino_acid": "T",
+      "phase": "free",
+      "occurrences": 3,
+      "canonical_source_row": 712,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1TM1_E_I",
+      "chain_id": "I",
+      "pdb_pos": 42,
+      "amino_acid": "Y",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 715,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1TM1_E_I",
+      "chain_id": "I",
+      "pdb_pos": 42,
+      "amino_acid": "Y",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 715,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1UUZ_A_D",
+      "chain_id": "A",
+      "pdb_pos": 62,
+      "amino_acid": "H",
+      "phase": "bound",
+      "occurrences": 4,
+      "canonical_source_row": 724,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1UUZ_A_D",
+      "chain_id": "A",
+      "pdb_pos": 62,
+      "amino_acid": "H",
+      "phase": "free",
+      "occurrences": 4,
+      "canonical_source_row": 724,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1XD3_A_B",
+      "chain_id": "B",
+      "pdb_pos": 27,
+      "amino_acid": "K",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 733,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1XD3_A_B",
+      "chain_id": "B",
+      "pdb_pos": 27,
+      "amino_acid": "K",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 733,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1XD3_A_B",
+      "chain_id": "B",
+      "pdb_pos": 6,
+      "amino_acid": "K",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 735,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1XD3_A_B",
+      "chain_id": "B",
+      "pdb_pos": 6,
+      "amino_acid": "K",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 735,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1Z7X_W_X",
+      "chain_id": "W",
+      "pdb_pos": 434,
+      "amino_acid": "Y",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 756,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1Z7X_W_X",
+      "chain_id": "W",
+      "pdb_pos": 434,
+      "amino_acid": "Y",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 756,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1Z7X_W_X",
+      "chain_id": "W",
+      "pdb_pos": 437,
+      "amino_acid": "Y",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 758,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "1Z7X_W_X",
+      "chain_id": "W",
+      "pdb_pos": 437,
+      "amino_acid": "Y",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 758,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2B42_A_B",
+      "chain_id": "A",
+      "pdb_pos": 357,
+      "amino_acid": "H",
+      "phase": "bound",
+      "occurrences": 3,
+      "canonical_source_row": 767,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2B42_A_B",
+      "chain_id": "A",
+      "pdb_pos": 357,
+      "amino_acid": "H",
+      "phase": "free",
+      "occurrences": 3,
+      "canonical_source_row": 767,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2FTL_E_I",
+      "chain_id": "I",
+      "pdb_pos": 15,
+      "amino_acid": "K",
+      "phase": "free",
+      "occurrences": 16,
+      "canonical_source_row": 777,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2G2U_A_B",
+      "chain_id": "B",
+      "pdb_pos": 73,
+      "amino_acid": "E",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 795,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2G2U_A_B",
+      "chain_id": "B",
+      "pdb_pos": 73,
+      "amino_acid": "E",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 795,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2J0T_A_D",
+      "chain_id": "D",
+      "pdb_pos": 68,
+      "amino_acid": "S",
+      "phase": "bound",
+      "occurrences": 4,
+      "canonical_source_row": 830,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2J0T_A_D",
+      "chain_id": "D",
+      "pdb_pos": 68,
+      "amino_acid": "S",
+      "phase": "free",
+      "occurrences": 4,
+      "canonical_source_row": 830,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2J0T_A_D",
+      "chain_id": "D",
+      "pdb_pos": 2,
+      "amino_acid": "T",
+      "phase": "bound",
+      "occurrences": 4,
+      "canonical_source_row": 834,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2J0T_A_D",
+      "chain_id": "D",
+      "pdb_pos": 2,
+      "amino_acid": "T",
+      "phase": "free",
+      "occurrences": 4,
+      "canonical_source_row": 834,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2J0T_A_D",
+      "chain_id": "D",
+      "pdb_pos": 4,
+      "amino_acid": "V",
+      "phase": "bound",
+      "occurrences": 4,
+      "canonical_source_row": 838,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2J0T_A_D",
+      "chain_id": "D",
+      "pdb_pos": 4,
+      "amino_acid": "V",
+      "phase": "free",
+      "occurrences": 4,
+      "canonical_source_row": 838,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2J0T_A_D",
+      "chain_id": "D",
+      "pdb_pos": 69,
+      "amino_acid": "V",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 842,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2J0T_A_D",
+      "chain_id": "D",
+      "pdb_pos": 69,
+      "amino_acid": "V",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 842,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2O3B_A_B",
+      "chain_id": "B",
+      "pdb_pos": 75,
+      "amino_acid": "D",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 850,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2O3B_A_B",
+      "chain_id": "B",
+      "pdb_pos": 75,
+      "amino_acid": "D",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 850,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2O3B_A_B",
+      "chain_id": "B",
+      "pdb_pos": 24,
+      "amino_acid": "E",
+      "phase": "bound",
+      "occurrences": 3,
+      "canonical_source_row": 852,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2O3B_A_B",
+      "chain_id": "B",
+      "pdb_pos": 24,
+      "amino_acid": "E",
+      "phase": "free",
+      "occurrences": 3,
+      "canonical_source_row": 852,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2SIC_E_I",
+      "chain_id": "I",
+      "pdb_pos": 67,
+      "amino_acid": "M",
+      "phase": "bound",
+      "occurrences": 10,
+      "canonical_source_row": 871,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2SIC_E_I",
+      "chain_id": "I",
+      "pdb_pos": 67,
+      "amino_acid": "M",
+      "phase": "free",
+      "occurrences": 10,
+      "canonical_source_row": 871,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2WPT_A_B",
+      "chain_id": "A",
+      "pdb_pos": 30,
+      "amino_acid": "D",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 884,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2WPT_A_B",
+      "chain_id": "A",
+      "pdb_pos": 30,
+      "amino_acid": "D",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 884,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2WPT_A_B",
+      "chain_id": "A",
+      "pdb_pos": 31,
+      "amino_acid": "N",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 890,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2WPT_A_B",
+      "chain_id": "A",
+      "pdb_pos": 35,
+      "amino_acid": "R",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 896,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "2WPT_A_B",
+      "chain_id": "A",
+      "pdb_pos": 35,
+      "amino_acid": "R",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 896,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3BK3_A_C",
+      "chain_id": "C",
+      "pdb_pos": 19,
+      "amino_acid": "I",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 908,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3BK3_A_C",
+      "chain_id": "C",
+      "pdb_pos": 19,
+      "amino_acid": "I",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 908,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3BK3_A_C",
+      "chain_id": "C",
+      "pdb_pos": 22,
+      "amino_acid": "I",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 910,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3BK3_A_C",
+      "chain_id": "C",
+      "pdb_pos": 22,
+      "amino_acid": "I",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 910,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3BK3_A_C",
+      "chain_id": "C",
+      "pdb_pos": 28,
+      "amino_acid": "I",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 912,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3BK3_A_C",
+      "chain_id": "C",
+      "pdb_pos": 28,
+      "amino_acid": "I",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 912,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3BK3_A_C",
+      "chain_id": "C",
+      "pdb_pos": 3,
+      "amino_acid": "I",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 914,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3BK3_A_C",
+      "chain_id": "C",
+      "pdb_pos": 3,
+      "amino_acid": "I",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 914,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3BK3_A_C",
+      "chain_id": "C",
+      "pdb_pos": 2,
+      "amino_acid": "L",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 916,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3BK3_A_C",
+      "chain_id": "C",
+      "pdb_pos": 2,
+      "amino_acid": "L",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 916,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 9,
+      "amino_acid": "A",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 933,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 9,
+      "amino_acid": "A",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 933,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 26,
+      "amino_acid": "G",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 971,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 7,
+      "amino_acid": "K",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 990,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 7,
+      "amino_acid": "K",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 990,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 12,
+      "amino_acid": "L",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 1009,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 30,
+      "amino_acid": "N",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 1028,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 30,
+      "amino_acid": "N",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 1028,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 8,
+      "amino_acid": "P",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 1047,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 8,
+      "amino_acid": "P",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 1047,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 11,
+      "amino_acid": "T",
+      "phase": "free",
+      "occurrences": 19,
+      "canonical_source_row": 1085,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "3SGB_E_I",
+      "chain_id": "I",
+      "pdb_pos": 14,
+      "amino_acid": "Y",
+      "phase": "bound",
+      "occurrences": 19,
+      "canonical_source_row": 1104,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "4CPA_A_I",
+      "chain_id": "I",
+      "pdb_pos": 37,
+      "amino_acid": "V",
+      "phase": "bound",
+      "occurrences": 5,
+      "canonical_source_row": 1124,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "4CPA_A_I",
+      "chain_id": "I",
+      "pdb_pos": 37,
+      "amino_acid": "V",
+      "phase": "free",
+      "occurrences": 5,
+      "canonical_source_row": 1124,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "4CPA_A_I",
+      "chain_id": "I",
+      "pdb_pos": 36,
+      "amino_acid": "Y",
+      "phase": "bound",
+      "occurrences": 2,
+      "canonical_source_row": 1129,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "official_complex": "4CPA_A_I",
+      "chain_id": "I",
+      "pdb_pos": 36,
+      "amino_acid": "Y",
+      "phase": "free",
+      "occurrences": 2,
+      "canonical_source_row": 1129,
+      "max_channel_range_before_canonicalization": 0.0
+    }
+  ]
+}

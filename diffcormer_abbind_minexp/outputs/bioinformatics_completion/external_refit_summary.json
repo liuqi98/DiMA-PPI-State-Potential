@@ -1,0 +1,71 @@
+{
+  "test_rows": 395,
+  "test_complexes": 16,
+  "training_rows": 1129,
+  "training_labels_from_abbind": 0,
+  "selection_labels_from_abbind": 0,
+  "seed_mean": {
+    "pearson": 0.1197445906840539,
+    "spearman": 0.23804010731326283,
+    "rmse": 2.2743237974543193,
+    "mae": 1.3378316292577386,
+    "auroc": 0.6390783242258652,
+    "reverse_mae": 1.1063835886325065e-07
+  },
+  "seed_std": {
+    "pearson": 0.023152415693140558,
+    "spearman": 0.0233604271868031,
+    "rmse": 0.029757237135074523,
+    "mae": 0.03438476883244816,
+    "auroc": 0.018007418081128507,
+    "reverse_mae": 1.8478954358690132e-08
+  },
+  "five_seed_ensemble": {
+    "pearson": 0.12632563487092632,
+    "spearman": 0.25177812928847787,
+    "rmse": 2.2509326113623733,
+    "mae": 1.3084503101091838,
+    "auroc": 0.643096539162113
+  },
+  "ensemble_reverse_mae": 5.621379872254385e-08,
+  "ensemble_reverse_max_abs": 3.247056156452377e-07,
+  "legacy_backbone_ensemble": {
+    "pearson": 0.200317196765677,
+    "spearman": 0.18878968375665045,
+    "rmse": 2.118835756896448,
+    "mae": 1.343936037546472,
+    "auroc": 0.5627686703096539
+  },
+  "proposed_minus_legacy_complex_bootstrap": {
+    "pearson": {
+      "proposed_minus_backbone": -0.07399156189475067,
+      "ci95_low": -0.18002322998129192,
+      "ci95_high": 0.16002484108058,
+      "bootstrap_two_sided_p": 0.5972
+    },
+    "spearman": {
+      "proposed_minus_backbone": 0.06298844553182742,
+      "ci95_low": -0.0805004288600174,
+      "ci95_high": 0.2617232044039118,
+      "bootstrap_two_sided_p": 0.4334
+    },
+    "rmse": {
+      "proposed_minus_backbone": 0.13209685446592534,
+      "ci95_low": -0.06663736913496374,
+      "ci95_high": 0.253886539118721,
+      "bootstrap_two_sided_p": 0.2838
+    },
+    "mae": {
+      "proposed_minus_backbone": -0.03548572743728817,
+      "ci95_low": -0.15467966343887635,
+      "ci95_high": 0.08072391518765933,
+      "bootstrap_two_sided_p": 0.5058
+    },
+    "auroc": {
+      "proposed_minus_backbone": 0.08032786885245902,
+      "ci95_low": 0.001730016391033324,
+      "ci95_high": 0.19409603569673423,
+      "bootstrap_two_sided_p": 0.0448
+    }
+  }
+}

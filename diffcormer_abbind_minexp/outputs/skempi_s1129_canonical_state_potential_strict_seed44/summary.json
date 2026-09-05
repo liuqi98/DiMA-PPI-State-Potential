@@ -1,0 +1,74 @@
+{
+  "rows": 1129,
+  "complexes": 111,
+  "device": "cuda",
+  "embedding_dim": 1280,
+  "node_input_dim": 3972,
+  "topology_dim": 168,
+  "atomic_delta_dim": 917,
+  "state_descriptor_dim": 141,
+  "atomic_delta_view": "all",
+  "node_radius": 20.0,
+  "edge_radius": 8.0,
+  "seed": 44,
+  "input_fusion": "gated",
+  "readout": "attention",
+  "pma_seeds": 4,
+  "pma_orth_weight": 0.01,
+  "pearson_loss_weight": 0.0,
+  "early_stop_metric": "mse",
+  "early_stop_rmse_weight": 0.05,
+  "thermodynamic_cycle": true,
+  "cycle_mode": "state_potential",
+  "antisymmetry_weight": 0.0,
+  "reverse_supervision_weight": 0.0,
+  "cycle_consistency_weight": 0.0,
+  "hard_antisymmetry": false,
+  "feature_ablation": "full",
+  "validation_grouping": "mutation",
+  "nested_anti_weights": null,
+  "mean_by_split": {
+    "pearson": {
+      "fold_interface_structure_5": 0.43579750158119357,
+      "fold_sequence_cluster_5": 0.3162155329377237
+    },
+    "spearman": {
+      "fold_interface_structure_5": 0.4340196947821261,
+      "fold_sequence_cluster_5": 0.3412904949048062
+    },
+    "rmse": {
+      "fold_interface_structure_5": 1.9161334477295484,
+      "fold_sequence_cluster_5": 1.949173557862872
+    },
+    "mae": {
+      "fold_interface_structure_5": 1.3694940021153665,
+      "fold_sequence_cluster_5": 1.3588568840233066
+    },
+    "auroc": {
+      "fold_interface_structure_5": 0.7255145066659608,
+      "fold_sequence_cluster_5": 0.6950468094963638
+    }
+  },
+  "std_by_split": {
+    "pearson": {
+      "fold_interface_structure_5": 0.23895884990455074,
+      "fold_sequence_cluster_5": 0.18835307797800835
+    },
+    "spearman": {
+      "fold_interface_structure_5": 0.23724106400727535,
+      "fold_sequence_cluster_5": 0.19628834116792332
+    },
+    "rmse": {
+      "fold_interface_structure_5": 0.5235884901986848,
+      "fold_sequence_cluster_5": 0.49743821184137416
+    },
+    "mae": {
+      "fold_interface_structure_5": 0.25770494142112305,
+      "fold_sequence_cluster_5": 0.28180532248323936
+    },
+    "auroc": {
+      "fold_interface_structure_5": 0.11739847028514504,
+      "fold_sequence_cluster_5": 0.11288779505137668
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "definition": "|y(A->C)-y(A->B)-y(B->C)| on ordered mutant pairs",
+  "triangle_cycle_definition": "|y(A->B)+y(B->C)+y(C->A)|",
+  "four_state_cycle_definition": "|y(A->B)+y(B->C)+y(C->D)+y(D->A)|",
+  "cycle_enumeration": "one deterministic canonical orientation per state subset",
+  "canonical_panels": 92,
+  "ordered_paths_per_model_seed": 9904,
+  "triangle_cycles_per_model_seed": 31922,
+  "four_state_cycles_per_model_seed": 133736,
+  "thresholds_kcal_per_mol": [
+    0.1,
+    0.001
+  ],
+  "matched_control_features": "ESM + ProteinMPNN residue graph; no directional atomic delta or topology",
+  "summaries": [
+    {
+      "seed": 43,
+      "variant": "pairwise",
+      "reverse_error": {
+        "count": 5653,
+        "mean": 2.29497018870307,
+        "median": 1.264090895652771,
+        "p95": 5.540479969978329,
+        "maximum": 21.600056648254395,
+        "fraction_below_0.1": 0.046700866796391294,
+        "fraction_below_0.001": 0.0005306916681408102
+      },
+      "path_error": {
+        "count": 9904,
+        "mean": 1.333244673715173,
+        "median": 0.7579339444637299,
+        "p95": 3.5369035005569462,
+        "maximum": 16.742311000823975,
+        "fraction_below_0.1": 0.08774232633279483,
+        "fraction_below_0.001": 0.0007067851373182552
+      },
+      "triangle_cycle_error": {
+        "count": 31922,
+        "mean": 3.287285721408089,
+        "median": 1.8124642372131348,
+        "p95": 7.915093123912807,
+        "maximum": 32.32973003387451,
+        "fraction_below_0.1": 0.03831213583108828,
+        "fraction_below_0.001": 0.0002819372219785728
+      },
+      "four_state_cycle_error": {
+        "count": 133736,
+        "mean": 4.2085960679090055,
+        "median": 2.359000027179718,
+        "p95": 10.335056394338608,
+        "maximum": 43.1286563873291,
+        "fraction_below_0.1": 0.02780104085661303,
+        "fraction_below_0.001": 0.00023179996410839266
+      }
+    },
+    {
+      "seed": 43,
+      "variant": "soft_consistency",
+      "reverse_error": {
+        "count": 5653,
+        "mean": 0.8922220663899514,
+        "median": 0.5806136131286621,
+        "p95": 2.746472382545469,
+        "maximum": 7.072964191436768,
+        "fraction_below_0.1": 0.10843799752343888,
+        "fraction_below_0.001": 0.0014151777817088271
+      },
+      "path_error": {
+        "count": 9904,
+        "mean": 0.9195605208841491,
+        "median": 0.5485941767692566,
+        "p95": 2.951903688907625,
+        "maximum": 9.110827445983887,
+        "fraction_below_0.1": 0.12035541195476575,
+        "fraction_below_0.001": 0.0016155088852988692
+      },
+      "triangle_cycle_error": {
+        "count": 31922,
+        "mean": 1.3460619480778988,
+        "median": 0.8522558808326721,
+        "p95": 4.180328416824338,
+        "maximum": 10.595464706420898,
+        "fraction_below_0.1": 0.08047741369588372,
+        "fraction_below_0.001": 0.0010024434559238143
+      },
+      "four_state_cycle_error": {
+        "count": 133736,
+        "mean": 1.7088187802376849,
+        "median": 1.0799753963947296,
+        "p95": 5.292008817195892,
+        "maximum": 15.340779304504395,
+        "fraction_below_0.1": 0.06374499012980799,
+        "fraction_below_0.001": 0.0005458515283842794
+      }
+    },
+    {
+      "seed": 43,
+      "variant": "hard_antisymmetry",
+      "reverse_error": {
+        "count": 5653,
+        "mean": 1.177595501695426e-07,
+        "median": 5.960464477539063e-08,
+        "p95": 4.76837158203125e-07,
+        "maximum": 4.291534423828125e-06,
+        "fraction_below_0.1": 1.0,
+        "fraction_below_0.001": 1.0
+      },
+      "path_error": {
+        "count": 9904,
+        "mean": 0.41657789726072203,
+        "median": 0.2148468792438507,
+        "p95": 1.4781568765640263,
+        "maximum": 5.765233993530273,
+        "fraction_below_0.1": 0.29987883683360256,
+        "fraction_below_0.001": 0.0036348949919224557
+      },
+      "triangle_cycle_error": {
+        "count": 31922,
+        "mean": 0.2761508092505865,
+        "median": 0.15363651514053345,
+        "p95": 0.9547993004322051,
+        "maximum": 5.765233039855957,
+        "fraction_below_0.1": 0.37638619134139467,
+        "fraction_below_0.001": 0.0047616064156381175
+      },
+      "four_state_cycle_error": {
+        "count": 133736,
+        "mean": 0.31543103534471517,
+        "median": 0.17723659425973892,
+        "p95": 1.0781603120267391,
+        "maximum": 7.342591047286987,
+        "fraction_below_0.1": 0.33124962612909015,
+        "fraction_below_0.001": 0.0038957348806604054
+      }
+    },
+    {
+      "seed": 43,
+      "variant": "four_state_potential",
+      "reverse_error": {
+        "count": 5653,
+        "mean": 1.841811288294626e-07,
+        "median": 1.1920928955078125e-07,
+        "p95": 5.960464477539062e-07,
+        "maximum": 2.86102294921875e-06,
+        "fraction_below_0.1": 1.0,
+        "fraction_below_0.001": 1.0
+      },
+      "path_error": {
+        "count": 9904,
+        "mean": 3.1196101199105265e-07,
+        "median": 1.7881393432617188e-07,
+        "p95": 1.0579824447631836e-06,
+        "maximum": 4.708766937255859e-06,
+        "fraction_below_0.1": 1.0,
+        "fraction_below_0.001": 1.0
+      },
+      "triangle_cycle_error": {
+        "count": 31922,
+        "mean": 2.5004920783258037e-07,
+        "median": 1.7881393432617188e-07,
+        "p95": 7.450580596923828e-07,
+        "maximum": 3.7550926208496094e-06,
+        "fraction_below_0.1": 1.0,
+        "fraction_below_0.001": 1.0
+      },
+      "four_state_cycle_error": {
+        "count": 133736,
+        "mean": 2.9051001994263484e-07,
+        "median": 2.086162567138672e-07,
+        "p95": 8.591450750827789e-07,
+        "maximum": 3.814697265625e-06,
+        "fraction_below_0.1": 1.0,
+        "fraction_below_0.001": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "test_rows": 395,
+  "test_complexes": 16,
+  "training_labels_from_abbind": 0,
+  "selection_labels_from_abbind": 0,
+  "fold_models_per_seed": 5,
+  "random_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "seed_mean": {
+    "pearson": 0.13104481230514609,
+    "spearman": 0.2563013798623498,
+    "rmse": 2.245778385344825,
+    "mae": 1.2956540155022986,
+    "auroc": 0.6445464480874318,
+    "reverse_mae": 5.130780728673431e-08
+  },
+  "seed_std": {
+    "pearson": 0.023571995044158703,
+    "spearman": 0.02981775111212676,
+    "rmse": 0.019151618024464852,
+    "mae": 0.010705565758450018,
+    "auroc": 0.010936166416986038,
+    "reverse_mae": 1.6912918610014914e-09
+  },
+  "all_model_ensemble": {
+    "pearson": 0.13319092780400552,
+    "spearman": 0.2577720510350828,
+    "rmse": 2.241773414588594,
+    "mae": 1.2903095642034124,
+    "auroc": 0.6468852459016393
+  },
+  "all_model_ensemble_reverse_mae": 2.155009534454644e-08,
+  "all_model_ensemble_reverse_max_abs": 1.144409176312422e-07,
+  "legacy_backbone_ensemble": {
+    "pearson": 0.200317196765677,
+    "spearman": 0.18878968375665045,
+    "rmse": 2.118835756896448,
+    "mae": 1.343936037546472,
+    "auroc": 0.5627686703096539
+  },
+  "legacy_prediction_files": [
+    "outputs/external_abbind_base_seed42/oof_predictions.csv",
+    "outputs/external_abbind_base_seed43/oof_predictions.csv",
+    "outputs/external_abbind_base_seed44/oof_predictions.csv",
+    "outputs/external_abbind_base_seed45/oof_predictions.csv",
+    "outputs/external_abbind_base_seed46/oof_predictions.csv"
+  ],
+  "proposed_minus_legacy_complex_bootstrap": {
+    "pearson": {
+      "difference": -0.06712626896167148,
+      "ci95_low": -0.18152722667310497,
+      "ci95_high": 0.17270889261411643,
+      "bootstrap_two_sided_p": 0.6354
+    },
+    "spearman": {
+      "difference": 0.06898236727843238,
+      "ci95_low": -0.09251574358543183,
+      "ci95_high": 0.28983887879075065,
+      "bootstrap_two_sided_p": 0.4324
+    },
+    "rmse": {
+      "difference": 0.12293765769214593,
+      "ci95_low": -0.08690794118001115,
+      "ci95_high": 0.25229939633310866,
+      "bootstrap_two_sided_p": 0.3938
+    },
+    "mae": {
+      "difference": -0.05362647334305959,
+      "ci95_low": -0.17329950278566109,
+      "ci95_high": 0.07075674133245018,
+      "bootstrap_two_sided_p": 0.3772
+    },
+    "auroc": {
+      "difference": 0.08411657559198538,
+      "ci95_low": 0.0006577777048067763,
+      "ci95_high": 0.20716159110923324,
+      "bootstrap_two_sided_p": 0.0484
+    }
+  }
+}

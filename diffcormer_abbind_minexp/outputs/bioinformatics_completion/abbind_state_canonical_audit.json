@@ -1,0 +1,970 @@
+{
+  "rows": 395,
+  "unique_state_phase_keys": 1436,
+  "duplicate_state_phase_keys": 80,
+  "nonidentical_duplicate_keys_before_canonicalization": 13,
+  "maximum_channel_range_before_canonicalization": 57.391357421875,
+  "selection_rule": "reuse the lowest-source-row descriptor for each physical state",
+  "duplicate_states": [
+    {
+      "state_key": [
+        "1MHP",
+        "L",
+        "92",
+        "G",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1236,
+      "max_channel_range_before_canonicalization": 57.391357421875
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "L",
+        "91",
+        "S",
+        "bound"
+      ],
+      "occurrences": 5,
+      "canonical_source_row": 1257,
+      "max_channel_range_before_canonicalization": 57.3392333984375
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "L",
+        "31",
+        "H",
+        "bound"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1238,
+      "max_channel_range_before_canonicalization": 46.481201171875
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "58",
+        "Y",
+        "bound"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1232,
+      "max_channel_range_before_canonicalization": 15.133636474609375
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "L",
+        "92",
+        "Y",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1295,
+      "max_channel_range_before_canonicalization": 4.6955108642578125
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "L",
+        "30",
+        "N",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1285,
+      "max_channel_range_before_canonicalization": 2.883514404296875
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "64",
+        "K",
+        "bound"
+      ],
+      "occurrences": 4,
+      "canonical_source_row": 1215,
+      "max_channel_range_before_canonicalization": 2.4939842224121094
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "64",
+        "K",
+        "free"
+      ],
+      "occurrences": 4,
+      "canonical_source_row": 1215,
+      "max_channel_range_before_canonicalization": 2.4939842224121094
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "50",
+        "T",
+        "bound"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1229,
+      "max_channel_range_before_canonicalization": 1.5017471313476562
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "35",
+        "S",
+        "bound"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1221,
+      "max_channel_range_before_canonicalization": 0.5124272108078003
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "50",
+        "T",
+        "free"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1229,
+      "max_channel_range_before_canonicalization": 0.45355224609375
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "33",
+        "T",
+        "free"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1226,
+      "max_channel_range_before_canonicalization": 0.2078607678413391
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "H",
+        "100a",
+        "Y",
+        "free"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1273,
+      "max_channel_range_before_canonicalization": 0.000213623046875
+    },
+    {
+      "state_key": [
+        "1DVF",
+        "A",
+        "49",
+        "Y",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1171,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1DVF",
+        "A",
+        "49",
+        "A",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1171,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1DVF",
+        "A",
+        "49",
+        "Y",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1171,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1DVF",
+        "A",
+        "49",
+        "A",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1171,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "99",
+        "F",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1195,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "99",
+        "F",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1195,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "100",
+        "G",
+        "bound"
+      ],
+      "occurrences": 6,
+      "canonical_source_row": 1197,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "100",
+        "G",
+        "free"
+      ],
+      "occurrences": 6,
+      "canonical_source_row": 1197,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "53",
+        "G",
+        "bound"
+      ],
+      "occurrences": 5,
+      "canonical_source_row": 1204,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "53",
+        "G",
+        "free"
+      ],
+      "occurrences": 5,
+      "canonical_source_row": 1204,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "54",
+        "G",
+        "bound"
+      ],
+      "occurrences": 5,
+      "canonical_source_row": 1209,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "54",
+        "G",
+        "free"
+      ],
+      "occurrences": 5,
+      "canonical_source_row": 1209,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "35",
+        "S",
+        "free"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1221,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "52",
+        "S",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1224,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "52",
+        "S",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1224,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "33",
+        "T",
+        "bound"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1226,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "H",
+        "58",
+        "Y",
+        "free"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1232,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "L",
+        "92",
+        "G",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1236,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "L",
+        "31",
+        "H",
+        "free"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1238,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "L",
+        "49",
+        "L",
+        "bound"
+      ],
+      "occurrences": 4,
+      "canonical_source_row": 1241,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "L",
+        "49",
+        "L",
+        "free"
+      ],
+      "occurrences": 4,
+      "canonical_source_row": 1241,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "L",
+        "30",
+        "N",
+        "bound"
+      ],
+      "occurrences": 4,
+      "canonical_source_row": 1245,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "L",
+        "30",
+        "N",
+        "free"
+      ],
+      "occurrences": 4,
+      "canonical_source_row": 1245,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "L",
+        "52",
+        "N",
+        "bound"
+      ],
+      "occurrences": 5,
+      "canonical_source_row": 1249,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "L",
+        "52",
+        "N",
+        "free"
+      ],
+      "occurrences": 5,
+      "canonical_source_row": 1249,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1MHP",
+        "L",
+        "91",
+        "S",
+        "free"
+      ],
+      "occurrences": 5,
+      "canonical_source_row": 1257,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "H",
+        "98",
+        "D",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1264,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "H",
+        "98",
+        "D",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1264,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "H",
+        "100a",
+        "Y",
+        "bound"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1273,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "H",
+        "100a",
+        "F",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1274,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "H",
+        "100a",
+        "F",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1274,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "L",
+        "91",
+        "H",
+        "bound"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1282,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "L",
+        "91",
+        "H",
+        "free"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1282,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "L",
+        "91",
+        "F",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1283,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "L",
+        "91",
+        "F",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1283,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "L",
+        "30",
+        "N",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1285,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "L",
+        "94",
+        "T",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1292,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "L",
+        "94",
+        "T",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1292,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "1N8Z",
+        "L",
+        "92",
+        "Y",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1295,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "5",
+        "E",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1304,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "5",
+        "E",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1304,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "70",
+        "E",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1308,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "70",
+        "E",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1308,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "85",
+        "E",
+        "bound"
+      ],
+      "occurrences": 4,
+      "canonical_source_row": 1312,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "85",
+        "E",
+        "free"
+      ],
+      "occurrences": 4,
+      "canonical_source_row": 1312,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "2",
+        "F",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1316,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "2",
+        "F",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1316,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "76",
+        "H",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1318,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "76",
+        "H",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1318,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "72",
+        "K",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1322,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "72",
+        "K",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1322,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "17",
+        "R",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1332,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "17",
+        "R",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1332,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "62",
+        "T",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1340,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "62",
+        "T",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1340,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "7",
+        "T",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1342,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2JEL",
+        "P",
+        "7",
+        "T",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1342,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2NYY",
+        "H",
+        "31",
+        "Y",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1366,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "2NYY",
+        "H",
+        "31",
+        "Y",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1366,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "HM_1YY9",
+        "H",
+        "57",
+        "T",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1472,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "HM_1YY9",
+        "H",
+        "57",
+        "T",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1472,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "HM_1YY9",
+        "H",
+        "50",
+        "V",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1474,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "HM_1YY9",
+        "H",
+        "50",
+        "V",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1474,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "HM_1YY9",
+        "L",
+        "97",
+        "T",
+        "bound"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1480,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "HM_1YY9",
+        "L",
+        "97",
+        "T",
+        "free"
+      ],
+      "occurrences": 3,
+      "canonical_source_row": 1480,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "HM_2NYY",
+        "H",
+        "31",
+        "Y",
+        "bound"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1501,
+      "max_channel_range_before_canonicalization": 0.0
+    },
+    {
+      "state_key": [
+        "HM_2NYY",
+        "H",
+        "31",
+        "Y",
+        "free"
+      ],
+      "occurrences": 2,
+      "canonical_source_row": 1501,
+      "max_channel_range_before_canonicalization": 0.0
+    }
+  ]
+}

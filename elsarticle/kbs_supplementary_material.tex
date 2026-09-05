@@ -1,0 +1,202 @@
+\documentclass[preprint,12pt]{elsarticle}
+
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{float}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+
+\begin{document}
+
+\begin{frontmatter}
+\title{Supplementary Material for ``DiMA-PPI: Thermodynamically Integrable State-Potential Learning for Protein--Protein Binding Mutations''}
+\author{Author One}
+\end{frontmatter}
+
+\section{Additional benchmark generalization}
+
+\begin{table}[H]
+\centering
+\caption{Additional historical pairwise-antisymmetry benchmarks. Reported baselines use the DSSA-PPI publication. The local official-input variant uses the released 15~\AA{} interface graphs and chain-level ESM-2 features; full-input variants use reconstructed partner structures and residue-level multimodal features. These experiments predate the canonical state-potential formulation. Local values are mean $\pm$ standard deviation over seeds 42--46. Bold marks the better locally controlled full-input formulation, not a statistical comparison with DSSA-PPI.}
+\label{tab:additional_benchmarks}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrcc}
+\toprule
+Dataset & Method & $N$ & Pearson & AUROC \\
+\midrule
+S4169 & DSSA-PPI (reported) & -- & $0.58\pm0.01$ & $0.70\pm0.02$ \\
+      & Soft pairwise (official-input) & 3920 & $0.514\pm0.053$ & $0.678\pm0.010$ \\
+      & Soft pairwise (full-input) & 4160 & $0.579\pm0.019$ & $0.700\pm0.004$ \\
+      & Hard pairwise (full-input) & 4160 & $\mathbf{0.603\pm0.015}$ & $\mathbf{0.712\pm0.006}$ \\
+M1707 & DSSA-PPI (reported) & -- & $0.42\pm0.02$ & $0.72\pm0.02$ \\
+      & Soft pairwise (official-input) & 1112 & $0.382\pm0.019$ & $0.705\pm0.020$ \\
+      & Soft pairwise (full-input) & 1337 & $0.411\pm0.021$ & $0.690\pm0.022$ \\
+      & Hard pairwise (full-input) & 1337 & $\mathbf{0.454\pm0.029}$ & $\mathbf{0.736\pm0.022}$ \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+The official-input and full-input rows retain different observation cohorts, and DSSA-PPI additionally uses separate pretraining. Cross-row contrasts involving these pipelines are therefore descriptive. The soft-versus-hard full-input rows use the same observations and provide the locally controlled comparison.
+
+\section{Complete real-state integrability audit}
+
+The audit uses 92 held-out mutation panels and representative seed 43. It contains 5,653 reverse comparisons, 9,904 ordered three-state paths, 31,922 deterministic triangle cycles, and 133,736 deterministic four-state cycles per model. Exactness of the state-potential construction is seed independent. The intermediate mutant-to-mutant edges are not independently labelled; these statistics measure internal thermodynamic consistency rather than the predictive accuracy of those edges.
+
+\begin{table}[H]
+\centering
+\caption{Complete reverse, path, and cycle audit. Values are in kcal mol$^{-1}$. ``Below'' columns give the fraction of absolute errors below the stated threshold.}
+\label{tab:integrability_full}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrr}
+\toprule
+Model & Relation & Mean & Median & P95 & Maximum & Below 0.1 & Below $10^{-3}$ \\
+\midrule
+\multirow{4}{*}{Pairwise}
+& Reverse & 2.295 & 1.264 & 5.540 & 21.600 & 0.047 & 0.0005 \\
+& Path & 1.333 & 0.758 & 3.537 & 16.742 & 0.088 & 0.0007 \\
+& Triangle & 3.287 & 1.812 & 7.915 & 32.330 & 0.038 & 0.0003 \\
+& Four-state cycle & 4.209 & 2.359 & 10.335 & 43.129 & 0.028 & 0.0002 \\
+\midrule
+\multirow{4}{*}{Soft consistency}
+& Reverse & 0.892 & 0.581 & 2.746 & 7.073 & 0.108 & 0.0014 \\
+& Path & 0.920 & 0.549 & 2.952 & 9.111 & 0.120 & 0.0016 \\
+& Triangle & 1.346 & 0.852 & 4.180 & 10.595 & 0.080 & 0.0010 \\
+& Four-state cycle & 1.709 & 1.080 & 5.292 & 15.341 & 0.064 & 0.0005 \\
+\midrule
+\multirow{4}{*}{Hard antisymmetry}
+& Reverse & $1.18\times10^{-7}$ & $5.96\times10^{-8}$ & $4.77\times10^{-7}$ & $4.29\times10^{-6}$ & 1.000 & 1.000 \\
+& Path & 0.417 & 0.215 & 1.478 & 5.765 & 0.300 & 0.0036 \\
+& Triangle & 0.276 & 0.154 & 0.955 & 5.765 & 0.376 & 0.0048 \\
+& Four-state cycle & 0.315 & 0.177 & 1.078 & 7.343 & 0.331 & 0.0039 \\
+\midrule
+\multirow{4}{*}{Canonical state potential}
+& Reverse & $1.84\times10^{-7}$ & $1.19\times10^{-7}$ & $5.96\times10^{-7}$ & $2.86\times10^{-6}$ & 1.000 & 1.000 \\
+& Path & $3.12\times10^{-7}$ & $1.79\times10^{-7}$ & $1.06\times10^{-6}$ & $4.71\times10^{-6}$ & 1.000 & 1.000 \\
+& Triangle & $2.50\times10^{-7}$ & $1.79\times10^{-7}$ & $7.45\times10^{-7}$ & $3.76\times10^{-6}$ & 1.000 & 1.000 \\
+& Four-state cycle & $2.91\times10^{-7}$ & $2.09\times10^{-7}$ & $8.59\times10^{-7}$ & $3.81\times10^{-6}$ & 1.000 & 1.000 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\section{Complete distribution-shift results}
+
+\begin{table}[H]
+\centering
+\caption{Five-seed ensemble generalization under sequence- and interface-structure-cluster folds. The two partitions probe parallel novelty axes.}
+\label{tab:strict_splits}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccccc}
+\toprule
+Split & Model & Pearson & Spearman & RMSE & MAE & AUROC \\
+\midrule
+\multirow{4}{*}{Sequence cluster}
+& Unconstrained backbone & 0.341 & 0.431 & 2.290 & 1.520 & 0.684 \\
+& Soft consistency & 0.380 & 0.451 & 2.252 & 1.502 & 0.690 \\
+& Hard antisymmetry & 0.392 & 0.475 & 2.257 & 1.487 & 0.733 \\
+& Canonical state potential & 0.354 & 0.441 & 2.355 & 1.519 & 0.743 \\
+\midrule
+\multirow{4}{*}{Interface structure}
+& Unconstrained backbone & 0.469 & 0.547 & 2.163 & 1.451 & 0.767 \\
+& Soft consistency & 0.490 & 0.552 & 2.136 & 1.421 & 0.777 \\
+& Hard antisymmetry & 0.463 & 0.509 & 2.194 & 1.463 & 0.766 \\
+& Canonical state potential & 0.488 & 0.515 & 2.174 & 1.458 & 0.771 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+All complex-bootstrap intervals for state-potential minus backbone, soft, or hard crossed zero for PCC, Spearman, RMSE, and MAE on both partitions. The sequence-split AUROC differences versus backbone and soft were positive with intervals excluding zero, but AUROC is complementary and the primary continuous regression metrics do not support a generalization claim. Complete machine-readable intervals are supplied in the reproducibility archive.
+
+\begin{table}[H]
+\centering
+\caption{External evaluation on 395 mutations from 16 sequence-decontaminated AbBind complexes. Values are mean $\pm$ standard deviation over five independently trained seeds. Complex-bootstrap intervals crossed zero for every model difference.}
+\label{tab:external_abbind}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+Model & Pearson & Spearman & RMSE & MAE & AUROC \\
+\midrule
+Multimodal backbone & $\mathbf{0.1851\pm0.0662}$ & $0.1751\pm0.0406$ & $2.1437\pm0.0639$ & $1.3721\pm0.0360$ & $0.5608\pm0.0208$ \\
+Soft pairwise consistency & $0.1734\pm0.0279$ & $\mathbf{0.2120\pm0.0354}$ & $\mathbf{2.1348\pm0.0176}$ & $\mathbf{1.3607\pm0.0182}$ & $\mathbf{0.5737\pm0.0263}$ \\
+Hard pairwise antisymmetry & $0.1053\pm0.0458$ & $0.1938\pm0.0216$ & $2.2080\pm0.0269$ & $1.3694\pm0.0183$ & $0.5575\pm0.0058$ \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\section{Extended subgroup and robustness analyses}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{figures/figS3_subgroups_full.pdf}
+  \caption{Complete exploratory subgroup and directional-bias audit. (A,B) PCC gain and MAE reduction across mutation chemistry and effect-size groups. (C) Calibration across experimental-target quintiles. (D) MAE for positive and negative experimental targets. These analyses were conducted after the primary evaluation and were not used for model selection.}
+  \label{fig:subgroups_full}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{figures/fig6_robustness_transfer.pdf}
+  \caption{External transfer and secondary robustness analyses for the historical pairwise models. (A) Sequence-decontaminated AbBind transfer; no model difference was statistically supported. (B) Input-module changes relative to the full soft-consistency model. (C) Exploratory seed-43 PCC and Spearman sensitivity to the antisymmetry weight. (D) Weights selected by mutation-level inner validation across 25 outer-fold/seed combinations. Panels C and D are diagnostics rather than primary model comparisons.}
+  \label{fig:robustness_details}
+\end{figure}
+
+These panels document historical soft-consistency experiments and are not part of the primary state-potential analysis. Mutation-level nested selection chose weights in $[0.1,1.0]$ for 23 of 25 outer folds and yielded PCC $0.761\pm0.009$; outer-test folds were never used for selection. The fixed $\lambda_{\mathrm{anti}}=0.20$ result ($0.759\pm0.012$ PCC) followed inspection of the exploratory seed-43 curve and is retained only as a mechanism diagnostic, not as a prospectively selected main result. A separate complex-grouped nested audit yielded PCC $0.671\pm0.082$, illustrating sensitivity to inner-validation composition. The proposed state-potential model uses neither $\lambda_{\mathrm{anti}}$ nor nested selection of a consistency weight.
+
+\section{Case-study values}
+
+\begin{table}[H]
+\centering
+\caption{All 16 held-out substitutions at BPTI K15 in trypsin--BPTI (PDB 2FTL). Values are five-seed ensemble predictions in kcal mol$^{-1}$. The site was selected post hoc as the largest per-site MAE improvement among held-out interface sites with at least five substitutions.}
+\label{tab:case_2ftl}
+\begin{tabular}{lrrr}
+\toprule
+Mutation & Experiment & Backbone & Soft pairwise \\
+\midrule
+K15A & $-10.16$ & $5.00$ & $-6.54$ \\
+K15D & $-11.50$ & $4.36$ & $-6.95$ \\
+K15E & $-9.42$ & $2.82$ & $-6.77$ \\
+K15F & $-7.03$ & $7.04$ & $-5.44$ \\
+K15G & $-12.35$ & $1.07$ & $-7.45$ \\
+K15H & $-8.78$ & $7.08$ & $-5.78$ \\
+K15I & $-11.17$ & $6.81$ & $-6.19$ \\
+K15L & $-8.86$ & $8.20$ & $-4.92$ \\
+K15M & $-7.69$ & $7.76$ & $-5.24$ \\
+K15N & $-8.03$ & $6.79$ & $-6.10$ \\
+K15Q & $-9.37$ & $6.99$ & $-5.97$ \\
+K15S & $-7.72$ & $6.22$ & $-6.49$ \\
+K15T & $-10.60$ & $6.05$ & $-6.34$ \\
+K15V & $-11.76$ & $7.36$ & $-6.22$ \\
+K15W & $-8.66$ & $8.10$ & $-5.16$ \\
+K15Y & $-6.86$ & $7.74$ & $-5.21$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{c-MET laboratory panel}
+
+\begin{table}[H]
+\centering
+\caption{Batch-normalized measurements and structure-free predictions for the 1-7 anti-c-MET nanobody panel. Predictions are mean $\pm$ standard deviation over five M1707-trained seeds. Positive $y_{\mathrm{DSSA}}=-RT\ln(K_{D,\mathrm{mut}}/K_{D,\mathrm{WT}})$ denotes affinity enhancement. $^{\dagger}$YWR reverses effect direction between batches and is excluded from primary metrics.}
+\label{tab:cmet_panel}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrr}
+\toprule
+Variant & Joint substitutions & $K_D^{\mathrm{std}}$ (nM) & $y_{\mathrm{DSSA}}$ & Unconstrained & Soft & Hard \\
+\midrule
+HWR & D29H/T51W/A103R & 222.4 & $+0.387$ & $-0.087\pm0.324$ & $+1.109\pm0.811$ & $+2.141\pm0.477$ \\
+YWR$^{\dagger}$ & D29Y/T51W/A103R & 531.8 & $-0.150$ & $+0.218\pm0.391$ & $+1.555\pm0.829$ & $+2.864\pm0.546$ \\
+HWK & D29H/T51W/A103K & 82.6 & $+0.998$ & $-0.026\pm0.383$ & $+1.141\pm0.802$ & $+2.160\pm0.492$ \\
+YWK & D29Y/T51W/A103K & 91.8 & $+0.933$ & $+0.253\pm0.406$ & $+1.587\pm0.818$ & $+2.873\pm0.558$ \\
+HWY & D29H/T51W/A103Y & 90.7 & $+0.940$ & $+0.442\pm0.337$ & $+1.765\pm0.778$ & $+3.244\pm0.542$ \\
+SWK & D29S/T51W/A103K & 139.7 & $+0.674$ & $-0.336\pm0.371$ & $+0.727\pm0.719$ & $+1.591\pm0.377$ \\
+SWQ & D29S/T51W/A103Q & 126.3 & $+0.736$ & $-0.295\pm0.282$ & $+0.653\pm0.618$ & $+1.566\pm0.473$ \\
+YWH & D29Y/T51W/A103H & 392.6 & $+0.037$ & $+0.235\pm0.336$ & $+1.530\pm0.788$ & $+2.887\pm0.523$ \\
+NWR & D29N/T51W/A103R & 1203.4 & $-0.653$ & $-0.380\pm0.410$ & $+0.858\pm0.800$ & $+1.671\pm0.391$ \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+HWR is directionally consistent across its two batches ($\Delta\Delta G_{K_D}=-0.502$ and $-0.273$~kcal/mol), whereas YWR changes sign ($-0.202$ and $+0.501$~kcal/mol). The pooled YWR value is therefore a low-confidence summary rather than a reliable thermodynamic label.
+
+\end{document}

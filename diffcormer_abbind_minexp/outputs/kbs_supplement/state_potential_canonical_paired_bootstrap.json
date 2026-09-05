@@ -1,0 +1,37 @@
+{
+  "comparison": "five-seed ensemble four-state versus no-state shared potential",
+  "estimand": "mean of the five outer-fold metrics",
+  "resampling_unit": "official complex independently within each outer fold",
+  "n_complexes": 111,
+  "n_mutations": 1129,
+  "bootstrap_replicates": 10000,
+  "rows": [
+    {
+      "metric": "PCC",
+      "no_state": 0.765920670736836,
+      "four_state": 0.7756833802055731,
+      "difference_four_minus_no_state": 0.00976270946873714,
+      "ci95_low": 0.00020400557297359812,
+      "ci95_high": 0.020615135350983076,
+      "bootstrap_probability_improvement": 0.9774
+    },
+    {
+      "metric": "RMSE",
+      "no_state": 1.5201441967279217,
+      "four_state": 1.4711370623888869,
+      "difference_four_minus_no_state": -0.04900713433903481,
+      "ci95_low": -0.07786857043383036,
+      "ci95_high": -0.013819603862816367,
+      "bootstrap_probability_improvement": 0.9956
+    },
+    {
+      "metric": "MAE",
+      "no_state": 1.122754262372455,
+      "four_state": 1.105539260524877,
+      "difference_four_minus_no_state": -0.01721500184757785,
+      "ci95_low": -0.04268925571727672,
+      "ci95_high": 0.01493794738235949,
+      "bootstrap_probability_improvement": 0.855
+    }
+  ]
+}

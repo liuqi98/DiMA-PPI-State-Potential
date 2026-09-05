@@ -1,0 +1,5 @@
+Mutation edges are replaced by a discrete gradient of shared state potentials.
+A bound/free PPI decomposition guarantees exact thermodynamic integrability.
+Canonical state identity preserves path-independent inputs in computation.
+Hard antisymmetry has near-zero reverse error but nonzero path circulation.
+Exact integrability retains competitive S1129 accuracy but not stronger-shift gains.

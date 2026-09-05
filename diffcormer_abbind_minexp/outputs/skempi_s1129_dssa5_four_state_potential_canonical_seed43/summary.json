@@ -1,0 +1,64 @@
+{
+  "rows": 1129,
+  "complexes": 111,
+  "device": "cuda",
+  "embedding_dim": 1280,
+  "node_input_dim": 3972,
+  "topology_dim": 168,
+  "atomic_delta_dim": 917,
+  "state_descriptor_dim": 141,
+  "atomic_delta_view": "all",
+  "node_radius": 20.0,
+  "edge_radius": 8.0,
+  "seed": 43,
+  "input_fusion": "gated",
+  "readout": "attention",
+  "pma_seeds": 4,
+  "pma_orth_weight": 0.01,
+  "pearson_loss_weight": 0.0,
+  "early_stop_metric": "mse",
+  "early_stop_rmse_weight": 0.05,
+  "thermodynamic_cycle": true,
+  "cycle_mode": "state_potential",
+  "antisymmetry_weight": 0.0,
+  "reverse_supervision_weight": 0.0,
+  "cycle_consistency_weight": 0.0,
+  "hard_antisymmetry": false,
+  "feature_ablation": "full",
+  "validation_grouping": "mutation",
+  "nested_anti_weights": null,
+  "mean_by_split": {
+    "pearson": {
+      "fold_dssa_5": 0.7647956998032133
+    },
+    "spearman": {
+      "fold_dssa_5": 0.5879315707986574
+    },
+    "rmse": {
+      "fold_dssa_5": 1.5293539000175098
+    },
+    "mae": {
+      "fold_dssa_5": 1.1522368393886626
+    },
+    "auroc": {
+      "fold_dssa_5": 0.7903449522806694
+    }
+  },
+  "std_by_split": {
+    "pearson": {
+      "fold_dssa_5": 0.06611083078944137
+    },
+    "spearman": {
+      "fold_dssa_5": 0.1465159542468762
+    },
+    "rmse": {
+      "fold_dssa_5": 0.18259525279247035
+    },
+    "mae": {
+      "fold_dssa_5": 0.12210728827151687
+    },
+    "auroc": {
+      "fold_dssa_5": 0.050984505165816645
+    }
+  }
+}

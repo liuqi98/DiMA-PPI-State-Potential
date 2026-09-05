@@ -1,0 +1,132 @@
+{
+  "No state descriptors": {
+    "pearson": {
+      "performance_loss_when_removed": 0.014492837579096363,
+      "ci95_low": 0.005323254281655717,
+      "ci95_high": 0.023248353770223776,
+      "bootstrap_two_sided_p": 0.0026
+    },
+    "spearman": {
+      "performance_loss_when_removed": 0.02029712321967081,
+      "ci95_low": 0.00824268285742269,
+      "ci95_high": 0.034387143733280674,
+      "bootstrap_two_sided_p": 0.0046
+    },
+    "rmse": {
+      "performance_loss_when_removed": 0.05389090356402115,
+      "ci95_low": 0.024649288524465563,
+      "ci95_high": 0.07689742173105252,
+      "bootstrap_two_sided_p": 0.0008
+    },
+    "mae": {
+      "performance_loss_when_removed": 0.01998494529341799,
+      "ci95_low": -0.0031098968653407826,
+      "ci95_high": 0.04150508665410045,
+      "bootstrap_two_sided_p": 0.0882
+    }
+  },
+  "No ProteinMPNN": {
+    "pearson": {
+      "performance_loss_when_removed": 0.01624808224659302,
+      "ci95_low": 0.0037349943579849084,
+      "ci95_high": 0.028226023235203165,
+      "bootstrap_two_sided_p": 0.0066
+    },
+    "spearman": {
+      "performance_loss_when_removed": 0.016167404678045227,
+      "ci95_low": -0.0008241984104314283,
+      "ci95_high": 0.028061430666600794,
+      "bootstrap_two_sided_p": 0.0586
+    },
+    "rmse": {
+      "performance_loss_when_removed": 0.06791799852853475,
+      "ci95_low": 0.02108523826444969,
+      "ci95_high": 0.11072199735632059,
+      "bootstrap_two_sided_p": 0.0022
+    },
+    "mae": {
+      "performance_loss_when_removed": 0.05085525845175298,
+      "ci95_low": 0.01074599686446618,
+      "ci95_high": 0.0861321084466595,
+      "bootstrap_two_sided_p": 0.0084
+    }
+  },
+  "No topology": {
+    "pearson": {
+      "performance_loss_when_removed": -0.0024971001765485834,
+      "ci95_low": -0.00858770981512619,
+      "ci95_high": 0.002611243449637179,
+      "bootstrap_two_sided_p": 0.325
+    },
+    "spearman": {
+      "performance_loss_when_removed": -0.0013597313750458584,
+      "ci95_low": -0.018003020200382934,
+      "ci95_high": 0.00959574565717785,
+      "bootstrap_two_sided_p": 0.7412
+    },
+    "rmse": {
+      "performance_loss_when_removed": -0.008752744202955132,
+      "ci95_low": -0.028706624512213435,
+      "ci95_high": 0.008321899336096821,
+      "bootstrap_two_sided_p": 0.3026
+    },
+    "mae": {
+      "performance_loss_when_removed": -0.008022876531693646,
+      "ci95_low": -0.025002733505366064,
+      "ci95_high": 0.0073347839335845206,
+      "bootstrap_two_sided_p": 0.303
+    }
+  },
+  "No atomic delta": {
+    "pearson": {
+      "performance_loss_when_removed": 0.00362180294827541,
+      "ci95_low": -0.0024356257627312417,
+      "ci95_high": 0.01469743823390294,
+      "bootstrap_two_sided_p": 0.2782
+    },
+    "spearman": {
+      "performance_loss_when_removed": 0.005827143809149282,
+      "ci95_low": -0.005153274962476628,
+      "ci95_high": 0.019363476822346678,
+      "bootstrap_two_sided_p": 0.3196
+    },
+    "rmse": {
+      "performance_loss_when_removed": 0.011752508943687845,
+      "ci95_low": -0.013982246647567696,
+      "ci95_high": 0.04527424228070485,
+      "bootstrap_two_sided_p": 0.3878
+    },
+    "mae": {
+      "performance_loss_when_removed": -0.00738055669913984,
+      "ci95_low": -0.02680194219549188,
+      "ci95_high": 0.019543259026493242,
+      "bootstrap_two_sided_p": 0.5796
+    }
+  },
+  "ESM + state descriptors only": {
+    "pearson": {
+      "performance_loss_when_removed": 0.008995961312038503,
+      "ci95_low": 0.0015201618130621431,
+      "ci95_high": 0.017163431299856275,
+      "bootstrap_two_sided_p": 0.023
+    },
+    "spearman": {
+      "performance_loss_when_removed": 0.0017861202594326997,
+      "ci95_low": -0.011304502025508145,
+      "ci95_high": 0.017631965241236777,
+      "bootstrap_two_sided_p": 0.7304
+    },
+    "rmse": {
+      "performance_loss_when_removed": 0.03294891086058338,
+      "ci95_low": 0.00746250200325474,
+      "ci95_high": 0.056425580069508985,
+      "bootstrap_two_sided_p": 0.0162
+    },
+    "mae": {
+      "performance_loss_when_removed": 0.01138120311655988,
+      "ci95_low": -0.013704550765356649,
+      "ci95_high": 0.029938693171048372,
+      "bootstrap_two_sided_p": 0.3238
+    }
+  }
+}
