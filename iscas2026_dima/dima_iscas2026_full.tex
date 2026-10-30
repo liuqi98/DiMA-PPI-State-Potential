@@ -1,0 +1,97 @@
+% Full conference draft with results from archived experiments.
+% ISCAS 2026 specifies IEEEtran in conference mode.
+\documentclass[conference,letterpaper]{IEEEtran}
+\usepackage{amsmath,amssymb}
+\usepackage{cite}
+\usepackage{graphicx,booktabs}
+\usepackage{flushend}
+\usepackage[hidelinks]{hyperref}
+\title{DiMA-PPI: Canonical State-Potential Learning\\
+for Consistent Protein Binding Mutation Prediction}
+% Names and institutional mapping are inherited from the existing manuscript.
+% Author approval and the final affiliation wording remain the authors' responsibility.
+\author{\IEEEauthorblockN{Qi Liu\IEEEauthorrefmark{1},
+Xinyi Xu\IEEEauthorrefmark{1}, Qian Cheng\IEEEauthorrefmark{1},
+Chen Wu\IEEEauthorrefmark{1}, Lu Meng\IEEEauthorrefmark{1},
+Defu Yang\IEEEauthorrefmark{2}, Xinbo Gao\IEEEauthorrefmark{1},
+and Xueli Chen\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}}
+\IEEEauthorblockA{\IEEEauthorrefmark{1}Xidian University, Xi'an, China\\
+\IEEEauthorrefmark{2}Hangzhou Normal University, Hangzhou, China\\
+Correspondence: xyxu@xidian.edu.cn; xbgao@mail.xidian.edu.cn; xlchen@xidian.edu.cn}}
+\begin{document}
+\maketitle
+\begin{abstract}
+Predicting mutation-induced changes in protein--protein binding free energy
+supports variant interpretation and protein engineering. Independently
+predicted substitution effects can produce path-dependent estimates of the
+binding free-energy difference between the same protein variants. We propose
+DiMA-PPI, a multimodal graph neural network that enforces path consistency
+through shared state-potential learning. The model integrates sequence
+embeddings, structural representations and local atomic descriptors to
+estimate latent potentials for bound and isolated-chain states. Mutation
+effects are expressed as differences between the binding potentials of the
+initial and final variants. Canonical state reuse maintains a single
+numerical value for each represented state across all predictions.
+On S1129, comprising 1,129 substitutions from 111 complexes,
+DiMA-PPI achieves a Pearson correlation coefficient (PCC) of 0.757 and a root mean
+squared error (RMSE) of 1.542~kcal mol$^{-1}$. We further construct PPI-Path92,
+which contains 92 groups of same-site variants and 9,904 mutant-to-mutant
+comparisons whose targets are derived from measured effects relative to the
+wild type.
+On PPI-Path92, DiMA-PPI achieves an RMSE of 1.611~kcal mol$^{-1}$ and a mean
+discrepancy of $4.78\times10^{-7}$~kcal mol$^{-1}$ between direct and
+multistep predictions. Experiments with fixed model parameters show that
+state reuse eliminates inconsistencies arising from independent stochastic
+evaluation and reduces redundant computation. These results support
+canonical state-potential learning for consistent prediction of binding
+changes across related protein variants.
+\end{abstract}
+\begin{IEEEkeywords}
+Graph neural networks, state potentials, protein binding, path consistency.
+\end{IEEEkeywords}
+
+\section{Introduction}
+Predicting changes in protein--protein binding free energy following
+amino-acid substitution is a central task in variant interpretation and
+protein engineering. Established tools include FoldX~\cite{foldx},
+MutaBind2~\cite{mutabind2}, mCSM-PPI2~\cite{mcsmppi2} and
+DDMut-PPI~\cite{ddmutppi}. Graph neural networks and pretrained protein
+representations integrate structural and sequence information to estimate
+these effects~\cite{graphppi,dssappi}. Evaluation on benchmarks such as
+SKEMPI~\cite{skempi2} primarily measures accuracy for individual substitutions.
+Comparison of related variants additionally requires path consistency:
+for states $a$, $b$ and $c$ under the same modeled conditions, the predicted
+change from $a$ to $c$ should equal the sum of the changes from $a$ to $b$
+and from $b$ to $c$. This relation couples predictions across substitutions.
+
+Reverse-mutation augmentation and antisymmetric prediction address
+directional bias~\cite{ddgbias} by relating each substitution to its reverse.
+Global consistency additionally requires zero accumulated change around
+closed mutation cycles. Representing protein states as graph nodes and
+mutation effects as directed edges provides a unified formulation: edge
+values defined by node-potential differences sum to zero around every cycle,
+analogous to voltage differences around a circuit loop. Implementing this
+property requires identical numerical representations of shared states
+throughout structure preparation and inference.
+
+StaB-ddG derives binding effects from folding scores~\cite{stabddg}, while
+DSSA-PPI uses residue-score differences under a shared conditioning
+context~\cite{dssappi}. We introduce canonical state identity across
+structure preparation, feature extraction and inference to preserve
+potential differences throughout the prediction pipeline.
+DiMA-PPI learns a binding potential from each pair of bound and free
+representations and reuses canonical state values across mutation queries.
+We also construct PPI-Path92 from S1129 to evaluate compositional prediction
+and cycle consistency. Matched model comparisons assess the relationship
+between predictive accuracy and consistency, while experiments with fixed
+model parameters quantify the numerical and computational effects of state
+reuse.
+
+\input{dima_method_conference}
+\input{dima_results}
+\section*{Acknowledgment}
+OpenAI Codex assisted with manuscript drafting, formatting and result-summary
+visualization.
+\bibliographystyle{IEEEtran}
+\bibliography{dima_full_references}
+\end{document}

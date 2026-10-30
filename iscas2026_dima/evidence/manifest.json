@@ -1,0 +1,47 @@
+[
+  {
+    "file": "state_potential_model_comparison.csv",
+    "source": "dima_ppi_state_potential_reproducibility/diffcormer_abbind_minexp/outputs/kbs_supplement/state_potential_model_comparison.csv",
+    "sha256": "72134418c5c082fd588c5dc3c90786a50cf6522c26d9256efefa59779a136df2"
+  },
+  {
+    "file": "descriptor_bootstrap.csv",
+    "source": "dima_ppi_state_potential_reproducibility/diffcormer_abbind_minexp/outputs/kbs_supplement/state_potential_canonical_paired_bootstrap.csv",
+    "sha256": "f00e164a1f621cadca3dcd9e4bd17bbc5a7fdaa835d5b0edcd7e4531b51dcd9f"
+  },
+  {
+    "file": "real_mutation_path_summary.json",
+    "source": "experiments/bioinformatics_completion/outputs/path_audit_five_seed/real_mutation_path_summary.json",
+    "sha256": "7a657c50b5a8d6fe223aeeb75958e1682704695bd12058b5c5e2a95f5acb3699"
+  },
+  {
+    "file": "unseen_edge_summary.csv",
+    "source": "experiments/bioinformatics_completion/outputs/unseen_edges/unseen_edge_summary.csv",
+    "sha256": "241b6699df9070980da3dbe32ed84e8f6850bca47fbdc95c568d399123161bb0"
+  },
+  {
+    "file": "unseen_edge_complex_bootstrap.json",
+    "source": "experiments/bioinformatics_completion/outputs/unseen_edges/unseen_edge_complex_bootstrap.json",
+    "sha256": "f336d2b9c581d061d0dd681c0762825102836a57e550f11a2885d4e8bfb691b3"
+  },
+  {
+    "file": "mc_summary.csv",
+    "source": "experiments/stab_canonical_identity/outputs_mc_sensitivity/summary.csv",
+    "sha256": "09b292a292e754fa3a414af05c0d1a7d88958d9c33f3cbb8d0921127ccf95ea0"
+  },
+  {
+    "file": "canonical_accuracy_summary.json",
+    "source": "experiments/stab_canonical_identity/outputs_accuracy/canonical_accuracy_summary.json",
+    "sha256": "7f6e36b1702dc724bb542a0f6e988b40ffc0afd1fb3c6c4e2832a64602455e45"
+  },
+  {
+    "file": "dima_canonical_reuse_seed42_cpu.json",
+    "source": "experiments/bioinformatics_completion/outputs/canonical_reuse/dima_canonical_reuse_seed42_cpu.json",
+    "sha256": "00ecc797ae5928f7dd40bb605273d0451c3c53a25677fad3b4939c6d11867fa7"
+  },
+  {
+    "file": "comparator_model_summary.csv",
+    "source": "dima_ppi_state_potential_reproducibility/comparator_validation_20260908/outputs/comparator_summary/all/model_summary.csv",
+    "sha256": "383e0f77aa8c09ecfa72a995100d5975ac5a30d25c0ca19595a8ab67622b6fd9"
+  }
+]

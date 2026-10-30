@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{S1129 predictive accuracy: mean $\pm$ sample SD across five repeats or seeds, each averaged over five folds. RMSE is in kcal mol$^{-1}$.}
+\label{tab:accuracy}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lccc}
+\toprule Model & PCC $\uparrow$ & Spearman $\uparrow$ & RMSE $\downarrow$ \\
+\midrule
+\multicolumn{4}{l}{\textit{Published-model comparison}} \\
+DSSA-PPI~\cite{dssappi} & $0.706\pm0.011$ & $0.508\pm0.017$ & $1.717\pm0.040$ \\
+DiMA-PPI (ours) & $0.757\pm0.009$ & $0.592\pm0.011$ & $1.542\pm0.023$ \\
+\midrule
+\multicolumn{4}{l}{\textit{Matched controls and ablation}} \\
+Pairwise & $0.570\pm0.020$ & $0.514\pm0.021$ & $2.112\pm0.047$ \\
+Reverse supervision & $0.756\pm0.009$ & $0.602\pm0.011$ & $1.565\pm0.039$ \\
+Soft consistency & $0.759\pm0.012$ & $0.608\pm0.014$ & $1.551\pm0.045$ \\
+Hard antisymmetry & $0.755\pm0.003$ & $0.594\pm0.009$ & $1.549\pm0.013$ \\
+No state descriptors & $0.750\pm0.004$ & $0.578\pm0.006$ & $1.588\pm0.025$ \\
+\bottomrule
+\end{tabular}
+\end{table}

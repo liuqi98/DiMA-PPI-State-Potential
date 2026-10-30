@@ -11,8 +11,22 @@ bootstrap analyses, and the September 2026 Bioinformatics completion audit.
 Large pretrained weights, raw structures, third-party datasets, graph caches,
 and regenerated checkpoints are intentionally excluded.
 
+## October 2026 manuscript update
+
+- [Current editable Word manuscript](iscas2026_dima/dima_iscas2026_full.docx)
+- [Current IEEE conference PDF](iscas2026_dima/dima_iscas2026_full.pdf)
+- [Paper sources, figures, dataset and build instructions](iscas2026_dima/README.md)
+- [Download the complete manuscript source archive](iscas2026_dima/dima_iscas2026_full_source.zip)
+
+This update adds the conference manuscript, the user-supplied model figure in
+Word, the PPI-Path92 label tables, archived evidence, and additional canonical-reuse
+and unseen-edge analysis scripts. Existing model-training code and journal
+artifacts are retained. Word and the IEEE PDF use different Figure 1 artwork,
+as documented in the conference directory.
+
 ## Repository layout
 
+- `iscas2026_dima/` — current conference manuscript, Word, figure code and PPI-Path92
 - `elsarticle/` — manuscript, supplement, bibliography, figures, and figure code
 - `diffcormer_abbind_minexp/` — training, evaluation, and audit entry points
 - `diffcormer_abbind_minexp/outputs/` — compact reported results

@@ -7,3 +7,10 @@ venv/
 *.pt
 *.pth
 *.ckpt
+
+# Regenerated LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz

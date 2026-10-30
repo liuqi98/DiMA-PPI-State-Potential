@@ -1,0 +1,123 @@
+{
+  "estimand": "mean of five outer-fold metrics on five-seed ensemble predictions",
+  "resampling_unit": "official complex independently within each outer fold",
+  "target_status": "derived endpoint difference, not an independently measured B->C step",
+  "edges": 9904,
+  "complexes": 27,
+  "bootstrap_repeats": 10000,
+  "bootstrap_seed": 20260916,
+  "observed": {
+    "pairwise": {
+      "pcc": 0.37176135212417577,
+      "rmse": 2.0410388250341938,
+      "mae": 1.4877326910394475
+    },
+    "soft_consistency": {
+      "pcc": 0.46615279247311336,
+      "rmse": 1.814475936657845,
+      "mae": 1.3318451425094868
+    },
+    "hard_antisymmetry": {
+      "pcc": 0.5255905028766753,
+      "rmse": 1.6998010953264662,
+      "mae": 1.2586710381030468
+    },
+    "four_state_potential": {
+      "pcc": 0.5741893685224184,
+      "rmse": 1.5329838076581122,
+      "mae": 1.1547266944445789
+    }
+  },
+  "comparisons": [
+    {
+      "comparison": "four_state_potential_minus_pairwise",
+      "metric": "pcc",
+      "control": 0.37176135212417577,
+      "proposed": 0.5741893685224184,
+      "difference": 0.20242801639824265,
+      "ci95_low": 0.11417006695181042,
+      "ci95_high": 0.29572482887333124,
+      "probability_proposed_better": 0.9998
+    },
+    {
+      "comparison": "four_state_potential_minus_pairwise",
+      "metric": "rmse",
+      "control": 2.0410388250341938,
+      "proposed": 1.5329838076581122,
+      "difference": -0.5080550173760816,
+      "ci95_low": -1.4297939231688348,
+      "ci95_high": -0.24968848580178923,
+      "probability_proposed_better": 1.0
+    },
+    {
+      "comparison": "four_state_potential_minus_pairwise",
+      "metric": "mae",
+      "control": 1.4877326910394475,
+      "proposed": 1.1547266944445789,
+      "difference": -0.3330059965948686,
+      "ci95_low": -1.3109968369048286,
+      "ci95_high": -0.18640703539297357,
+      "probability_proposed_better": 1.0
+    },
+    {
+      "comparison": "four_state_potential_minus_soft_consistency",
+      "metric": "pcc",
+      "control": 0.46615279247311336,
+      "proposed": 0.5741893685224184,
+      "difference": 0.10803657604930506,
+      "ci95_low": 0.0270620069225886,
+      "ci95_high": 0.250176117249909,
+      "probability_proposed_better": 0.991
+    },
+    {
+      "comparison": "four_state_potential_minus_soft_consistency",
+      "metric": "rmse",
+      "control": 1.814475936657845,
+      "proposed": 1.5329838076581122,
+      "difference": -0.28149212899973275,
+      "ci95_low": -0.8781530464533146,
+      "ci95_high": -0.11843355712331445,
+      "probability_proposed_better": 0.9987
+    },
+    {
+      "comparison": "four_state_potential_minus_soft_consistency",
+      "metric": "mae",
+      "control": 1.3318451425094868,
+      "proposed": 1.1547266944445789,
+      "difference": -0.17711844806490795,
+      "ci95_low": -0.7364773000584172,
+      "ci95_high": -0.07521994587687059,
+      "probability_proposed_better": 0.9986
+    },
+    {
+      "comparison": "four_state_potential_minus_hard_antisymmetry",
+      "metric": "pcc",
+      "control": 0.5255905028766753,
+      "proposed": 0.5741893685224184,
+      "difference": 0.04859886564574312,
+      "ci95_low": -0.040617924685819214,
+      "ci95_high": 0.1750984702909531,
+      "probability_proposed_better": 0.9129
+    },
+    {
+      "comparison": "four_state_potential_minus_hard_antisymmetry",
+      "metric": "rmse",
+      "control": 1.6998010953264662,
+      "proposed": 1.5329838076581122,
+      "difference": -0.16681728766835402,
+      "ci95_low": -0.46561269929742216,
+      "ci95_high": -0.015867502934359953,
+      "probability_proposed_better": 0.9857
+    },
+    {
+      "comparison": "four_state_potential_minus_hard_antisymmetry",
+      "metric": "mae",
+      "control": 1.2586710381030468,
+      "proposed": 1.1547266944445789,
+      "difference": -0.10394434365846794,
+      "ci95_low": -0.3812901095931302,
+      "ci95_high": -0.011446645864899867,
+      "probability_proposed_better": 0.9849
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "seed": 42,
+  "device": "cpu",
+  "torch_threads": 8,
+  "panels": 92,
+  "amino_acid_states": 793,
+  "bound_free_state_contexts": 1586,
+  "directed_edges": 11306,
+  "independent_state_context_requests": 45224,
+  "request_reduction_factor": 28.51450189155107,
+  "inference_seconds": {
+    "independent_edge_evaluation": 469.4177852819994,
+    "canonical_state_reuse": 16.147161500994116,
+    "speedup": 29.071226249461816
+  },
+  "independent_consistency": {
+    "reverse": {
+      "count": 5653,
+      "mean": 3.074897042265257e-08,
+      "maximum": 1.430511474609375e-06
+    },
+    "path": {
+      "count": 9904,
+      "mean": 1.2928286976453107e-07,
+      "maximum": 2.0265579223632812e-06
+    },
+    "triangle": {
+      "count": 31922,
+      "mean": 1.045761768053266e-07,
+      "maximum": 2.0265579223632812e-06
+    },
+    "four_state_cycle": {
+      "count": 133736,
+      "mean": 1.2503089212481267e-07,
+      "maximum": 2.384185791015625e-06
+    }
+  },
+  "canonical_consistency": {
+    "reverse": {
+      "count": 5653,
+      "mean": 0.0,
+      "maximum": 0.0
+    },
+    "path": {
+      "count": 9904,
+      "mean": 0.0,
+      "maximum": 0.0
+    },
+    "triangle": {
+      "count": 31922,
+      "mean": 0.0,
+      "maximum": 0.0
+    },
+    "four_state_cycle": {
+      "count": 133736,
+      "mean": 0.0,
+      "maximum": 0.0
+    }
+  },
+  "prediction_difference": {
+    "mean_absolute": 1.1020759204502239e-07,
+    "maximum_absolute": 1.6689300537109375e-06
+  },
+  "timing_scope": "model inference only; excludes checkpoint/cache I/O and graph assembly"
+}

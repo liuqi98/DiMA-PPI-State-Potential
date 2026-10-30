@@ -1,0 +1,34 @@
+{
+  "name": "PPI-Path92",
+  "full_name": "Protein–Protein Interaction Mutation Path Benchmark",
+  "version": "1.0",
+  "origin": "Constructed in this project from repeated-site measurements in the public S1129 benchmark; S1129 retains its original name.",
+  "complexes": 27,
+  "panels": 92,
+  "amino_acid_states": 793,
+  "bound_free_contexts": 1586,
+  "derived_mutant_to_mutant_directed_edges": 9904,
+  "all_directed_state_graph_edges": 11306,
+  "reverse_comparisons": 5653,
+  "triangles": 31922,
+  "four_state_cycles": 133736,
+  "target": "target_unseen_edge = target_direct - target_step_one = y(WT->C) - y(WT->B)",
+  "label_provenance": "Measured WT endpoint effects; mutant-to-mutant labels are computed endpoint differences.",
+  "unit": "kcal/mol",
+  "sign_convention": "Positive values denote stronger binding.",
+  "split": "Panel inherits official complex-disjoint outer fold from S1129/DSSA-PPI.",
+  "panel_key": [
+    "official_complex",
+    "chain_id",
+    "pdb_pos",
+    "wt_aa"
+  ],
+  "endpoint_deduplication": "Earliest source_row per panel and mutant amino-acid identity.",
+  "source_prediction_file": "experiments/bioinformatics_completion/outputs/unseen_edges/unseen_edge_predictions.csv",
+  "source_prediction_sha256": "fd99f96c9aae8fd0acc3ab22120cead7f5d4b0af72e9af1fdc76a4ca40e4159f",
+  "export": "Prediction-free label table deduplicated across all model variants and random seeds, with endpoint source-row provenance.",
+  "files": {
+    "PPI-Path92_edges.csv": "9304ea4671b3a3eaffa8b434d5d176ff26fe65714a05f187e22c5d208f06b9fb",
+    "PPI-Path92_panels.csv": "68d761e2a4a4dda9ce549f907c0b10ea8c991b51861b68be428d7230c9092211"
+  }
+}
